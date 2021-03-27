@@ -1,0 +1,17 @@
+package br.neurotech.americanas;
+
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+
+public class SelecaoNeurotech {
+
+	@Test
+	public void acessarSiteAmericanas() {
+		WebDriver driver = new FirefoxDriver();
+		driver.get("www.americanas.com");
+	}
+}

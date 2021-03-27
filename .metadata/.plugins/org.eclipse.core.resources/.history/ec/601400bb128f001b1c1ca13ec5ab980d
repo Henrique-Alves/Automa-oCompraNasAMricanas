@@ -1,0 +1,14 @@
+package br.neurotech.americanas;
+
+import org.openqa.selenium.WebDriver;
+
+
+
+
+public class SelecaoNeurotech {
+
+	@Test
+	public void acessarSiteAmericanas() {
+		WebDriver
+	}
+}

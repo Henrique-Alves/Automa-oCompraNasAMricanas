@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SelecaoNeurotech" project="ProjetoNeurotech" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="br.neurotech.americanas.SelecaoNeurotech" time="164.963">
+    <testcase name="imprimirValoresDoFrete" classname="br.neurotech.americanas.SelecaoNeurotech" time="19.644"/>
+    <testcase name="ClicarEmContinuar" classname="br.neurotech.americanas.SelecaoNeurotech" time="28.055"/>
+    <testcase name="validarProdutoNaCesta" classname="br.neurotech.americanas.SelecaoNeurotech" time="23.997"/>
+    <testcase name="selecionarProduto" classname="br.neurotech.americanas.SelecaoNeurotech" time="15.153"/>
+    <testcase name="clicarComprar" classname="br.neurotech.americanas.SelecaoNeurotech" time="21.171"/>
+    <testcase name="acessarSiteAmericanas" classname="br.neurotech.americanas.SelecaoNeurotech" time="22.003"/>
+    <testcase name="buscarConsole" classname="br.neurotech.americanas.SelecaoNeurotech" time="14.728"/>
+    <testcase name="selecionarGarantia" classname="br.neurotech.americanas.SelecaoNeurotech" time="20.21"/>
+  </testsuite>
+</testrun>

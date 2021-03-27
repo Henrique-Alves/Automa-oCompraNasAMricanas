@@ -1,0 +1,7 @@
+Compara elemento:
+Assert.Equeal() compara o elemento;
+
+pega o testo dentro:
+
+Clicar no botão:
+driver.findElement(By.id("email")).Click();

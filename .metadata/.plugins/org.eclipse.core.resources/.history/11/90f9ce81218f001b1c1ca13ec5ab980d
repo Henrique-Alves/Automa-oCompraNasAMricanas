@@ -1,0 +1,39 @@
+package br.neurotech.americanas;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+
+public class SelecaoNeurotech {
+
+//	@Test
+//	public void acessarSiteAmericanas() {
+//		WebDriver driver = new FirefoxDriver();
+//		driver.get("https://www.americanas.com.br/");
+//		driver.quit();
+//	}
+//	
+//	@Test
+//	public void buscarConsole() {
+//		WebDriver driver = new FirefoxDriver();
+//		driver.get("https://www.americanas.com.br/");
+//		driver.findElement(By.id("h_search-input")).sendKeys("console ps4");
+//		driver.findElement(By.id("h_search-btn")).click();
+//		//driver.quit();
+//	}
+	
+	@Test
+	public void selecionarConsole() {
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.americanas.com.br/");
+		driver.findElement(By.id("h_search-input")).sendKeys("console ps4");
+		driver.findElement(By.id("h_search-btn")).click();
+		driver.findElement(By.className("src__Text-sc-154pg0p-0 src__Name-sc-1k0ejj6-3 dSRUrl")).click();
+				
+		//driver.quit();
+	}
+}

@@ -1,0 +1,17 @@
+package br.eurotech.americanas.page;
+
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class CompraDeProdutoPage {
+
+	WebDriver driver;
+	
+	@Before //inicializa antes de cada execução;
+	public void inicializar() {
+    driver = new FirefoxDriver();
+	driver.get("https://www.americanas.com.br/");
+	
+}
+}

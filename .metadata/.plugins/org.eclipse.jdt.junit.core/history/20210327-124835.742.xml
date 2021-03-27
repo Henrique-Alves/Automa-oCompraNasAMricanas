@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SelecaoNeurotech" project="ProjetoNeurotech" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="br.neurotech.americanas.SelecaoNeurotech" time="40.567">
+    <testcase name="acessarSiteAmericanas" classname="br.neurotech.americanas.SelecaoNeurotech" time="21.09"/>
+    <testcase name="buscarConsole" classname="br.neurotech.americanas.SelecaoNeurotech" time="19.477"/>
+  </testsuite>
+</testrun>
